@@ -415,8 +415,8 @@ function App() {
               <GraduationCap size={24} />
             </div>
             <div>
-              <strong>墨研论文助手</strong>
-              <span>多 AI 协作 · 逐段降重 · 流式终稿</span>
+              <strong>MultiRewrite-</strong>
+              <span>多 AI 协作 · 轻松降重至 10% 以下</span>
             </div>
           </div>
           <button className="ghost-button">查看规范</button>
@@ -426,11 +426,11 @@ function App() {
           <div>
             <div className="eyebrow">
               <Sparkles size={16} />
-              DeepSeek 多角色协作流水线
+              多模型多角色协作流水线
             </div>
-            <h1>让多个 AI 分工协作，先分析，再改写，最后审查</h1>
+            <h1>多 AI 分工协作，轻松将论文重复率降低到 10% 以下</h1>
             <p>
-              每段内容会经过总结逻辑、上下文衔接、图表检测、终审约束和最终改写五个角色处理。前端保留修改前后对比，并展示每个 AI 的工作结果。
+              每段内容会经过总结逻辑、上下文衔接、图表检测、终审约束和最终改写五个角色处理。系统保留修改前后对比、改写标注和多轮评审，帮助用户稳定优化论文表达。
             </p>
           </div>
 
