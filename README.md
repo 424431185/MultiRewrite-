@@ -27,13 +27,27 @@ MultiRewrite- 是一个网页端论文改写工具，用于辅助论文降重、
 
 ## 本地运行
 
-### 1. 安装依赖
+### 1. 克隆项目
+
+```bash
+git clone https://github.com/424431185/MultiRewrite-.git
+```
+
+进入项目目录：
+
+```bash
+cd MultiRewrite-
+```
+
+如果你是直接下载 ZIP，也可以解压后进入项目文件夹。
+
+### 2. 安装依赖
 
 ```bash
 npm install
 ```
 
-### 2. 创建环境变量文件
+### 3. 创建环境变量文件
 
 复制示例配置：
 
@@ -47,7 +61,7 @@ Windows PowerShell 也可以使用：
 Copy-Item .env.example .env
 ```
 
-### 3. 配置模型
+### 4. 配置模型
 
 默认使用 DeepSeek：
 
@@ -58,7 +72,7 @@ DEEPSEEK_API_KEY=你的 DeepSeek API Key
 DEEPSEEK_MODEL=deepseek-chat
 ```
 
-### 4. 启动项目
+### 5. 启动项目
 
 ```bash
 npm run dev
@@ -70,7 +84,7 @@ npm run dev
 http://localhost:5173
 ```
 
-### 5. 构建生产版本
+### 6. 构建生产版本
 
 ```bash
 npm run build
